@@ -68,3 +68,10 @@ def calcolaSubnet(input_diz, prima_rete):
 
         # Incrementa il livello di indentazione per il prossimo gruppo
         livello += 1
+
+# DIZIONARIO
+def print_diz(diz_input):
+    for intput_key, value_diz in diz_input.items():
+        print(f"{intput_key} : ")
+        for key, value in value_diz.items():
+            print(f"    {key}: {value}")
